@@ -14,7 +14,6 @@ public class segitiga extends AppCompatActivity {
     EditText input_alas,input_tinggi;
     TextView output_hasil;
     Button hasil;
-//    Double a1,a2,luas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,13 +50,4 @@ public class segitiga extends AppCompatActivity {
     public double LuasSegitiga(double input_alas, double input_tinggi){
         return input_alas*input_tinggi/2;
     }
-//    public void konver(){
-//        a1 = Double.parseDouble(input_alas.getText().toString());
-//        a2 = Double.parseDouble(input_tinggi.getText().toString());
-//    }
-//    public void prosesluas(){
-//        konver();
-//        luas = (a1*a2)/2;
-//        output_hasil.setText(Double.toString(luas));
-//    }
 }
